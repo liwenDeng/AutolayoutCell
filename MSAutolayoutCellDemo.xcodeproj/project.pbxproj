@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C0625E3C920AE19DEA584FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C059E3753DC3F069CF0BC59F /* libPods.a */; };
+		BC03B9951C28E8AF0066F50F /* MSCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = BC03B9941C28E8AF0066F50F /* MSCell1.m */; };
+		BC03B9981C2925430066F50F /* MSBase2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC03B9971C2925430066F50F /* MSBase2ViewController.m */; };
+		BC03B99B1C2928FC0066F50F /* MSCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = BC03B99A1C2928FC0066F50F /* MSCell2.m */; };
+		BC03B99E1C29376A0066F50F /* MSCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = BC03B99D1C29376A0066F50F /* MSCell3.m */; };
+		BC03B9A11C2946AA0066F50F /* MSBase3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC03B9A01C2946AA0066F50F /* MSBase3ViewController.m */; };
+		BC69FC201C27CFEA00B4F9D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69FC1F1C27CFEA00B4F9D9 /* main.m */; };
+		BC69FC231C27CFEA00B4F9D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69FC221C27CFEA00B4F9D9 /* AppDelegate.m */; };
+		BC69FC291C27CFEA00B4F9D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC69FC271C27CFEA00B4F9D9 /* Main.storyboard */; };
+		BC69FC2B1C27CFEA00B4F9D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC69FC2A1C27CFEA00B4F9D9 /* Assets.xcassets */; };
+		BC69FC2E1C27CFEA00B4F9D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC69FC2C1C27CFEA00B4F9D9 /* LaunchScreen.storyboard */; };
+		BC69FC391C27CFEA00B4F9D9 /* MSAutolayoutCellDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69FC381C27CFEA00B4F9D9 /* MSAutolayoutCellDemoTests.m */; };
+		BC69FC441C27CFEA00B4F9D9 /* MSAutolayoutCellDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69FC431C27CFEA00B4F9D9 /* MSAutolayoutCellDemoUITests.m */; };
+		BC896C8C1C27FEAC006454B7 /* MSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC896C8B1C27FEAC006454B7 /* MSBaseViewController.m */; };
+		BC896C8F1C27FEF4006454B7 /* MSMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC896C8E1C27FEF4006454B7 /* MSMainTableViewController.m */; };
+		BC896C911C28002F006454B7 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = BC896C901C28002F006454B7 /* data.json */; };
+		BC896C971C2802E8006454B7 /* MSCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC896C961C2802E8006454B7 /* MSCellModel.m */; };
+		BC896C9A1C280629006454B7 /* MSBase1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC896C991C280629006454B7 /* MSBase1ViewController.m */; };
+		BC896C9D1C280659006454B7 /* MSBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC896C9C1C280659006454B7 /* MSBaseTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC69FC351C27CFEA00B4F9D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC69FC131C27CFEA00B4F9D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC69FC1A1C27CFEA00B4F9D9;
+			remoteInfo = MSAutolayoutCellDemo;
+		};
+		BC69FC401C27CFEA00B4F9D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC69FC131C27CFEA00B4F9D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC69FC1A1C27CFEA00B4F9D9;
+			remoteInfo = MSAutolayoutCellDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D6EC6EEC3B0A15361FE9BE8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		976A9841B99DA242DE6BD382 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BC03B9931C28E8AF0066F50F /* MSCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCell1.h; sourceTree = "<group>"; };
+		BC03B9941C28E8AF0066F50F /* MSCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCell1.m; sourceTree = "<group>"; };
+		BC03B9961C2925430066F50F /* MSBase2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBase2ViewController.h; sourceTree = "<group>"; };
+		BC03B9971C2925430066F50F /* MSBase2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBase2ViewController.m; sourceTree = "<group>"; };
+		BC03B9991C2928FC0066F50F /* MSCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCell2.h; sourceTree = "<group>"; };
+		BC03B99A1C2928FC0066F50F /* MSCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCell2.m; sourceTree = "<group>"; };
+		BC03B99C1C29376A0066F50F /* MSCell3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCell3.h; sourceTree = "<group>"; };
+		BC03B99D1C29376A0066F50F /* MSCell3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCell3.m; sourceTree = "<group>"; };
+		BC03B99F1C2946AA0066F50F /* MSBase3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBase3ViewController.h; sourceTree = "<group>"; };
+		BC03B9A01C2946AA0066F50F /* MSBase3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBase3ViewController.m; sourceTree = "<group>"; };
+		BC69FC1B1C27CFEA00B4F9D9 /* MSAutolayoutCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSAutolayoutCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC69FC1F1C27CFEA00B4F9D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC69FC211C27CFEA00B4F9D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC69FC221C27CFEA00B4F9D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC69FC281C27CFEA00B4F9D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC69FC2A1C27CFEA00B4F9D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC69FC2D1C27CFEA00B4F9D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC69FC2F1C27CFEA00B4F9D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC69FC341C27CFEA00B4F9D9 /* MSAutolayoutCellDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSAutolayoutCellDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC69FC381C27CFEA00B4F9D9 /* MSAutolayoutCellDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAutolayoutCellDemoTests.m; sourceTree = "<group>"; };
+		BC69FC3A1C27CFEA00B4F9D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC69FC3F1C27CFEA00B4F9D9 /* MSAutolayoutCellDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSAutolayoutCellDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC69FC431C27CFEA00B4F9D9 /* MSAutolayoutCellDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAutolayoutCellDemoUITests.m; sourceTree = "<group>"; };
+		BC69FC451C27CFEA00B4F9D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC896C8A1C27FEAC006454B7 /* MSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBaseViewController.h; sourceTree = "<group>"; };
+		BC896C8B1C27FEAC006454B7 /* MSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBaseViewController.m; sourceTree = "<group>"; };
+		BC896C8D1C27FEF4006454B7 /* MSMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMainTableViewController.h; sourceTree = "<group>"; };
+		BC896C8E1C27FEF4006454B7 /* MSMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMainTableViewController.m; sourceTree = "<group>"; };
+		BC896C901C28002F006454B7 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		BC896C951C2802E8006454B7 /* MSCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCellModel.h; sourceTree = "<group>"; };
+		BC896C961C2802E8006454B7 /* MSCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCellModel.m; sourceTree = "<group>"; };
+		BC896C981C280629006454B7 /* MSBase1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBase1ViewController.h; sourceTree = "<group>"; };
+		BC896C991C280629006454B7 /* MSBase1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBase1ViewController.m; sourceTree = "<group>"; };
+		BC896C9B1C280659006454B7 /* MSBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBaseTableViewCell.h; sourceTree = "<group>"; };
+		BC896C9C1C280659006454B7 /* MSBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBaseTableViewCell.m; sourceTree = "<group>"; };
+		C059E3753DC3F069CF0BC59F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC69FC181C27CFEA00B4F9D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0625E3C920AE19DEA584FE /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC69FC311C27CFEA00B4F9D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC69FC3C1C27CFEA00B4F9D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E7113F562421A26D22F1F22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D6EC6EEC3B0A15361FE9BE8 /* Pods.debug.xcconfig */,
+				976A9841B99DA242DE6BD382 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8813BA3F901C641E49743E29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C059E3753DC3F069CF0BC59F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC69FC121C27CFEA00B4F9D9 = {
+			isa = PBXGroup;
+			children = (
+				BC69FC1D1C27CFEA00B4F9D9 /* MSAutolayoutCellDemo */,
+				BC69FC371C27CFEA00B4F9D9 /* MSAutolayoutCellDemoTests */,
+				BC69FC421C27CFEA00B4F9D9 /* MSAutolayoutCellDemoUITests */,
+				BC69FC1C1C27CFEA00B4F9D9 /* Products */,
+				0E7113F562421A26D22F1F22 /* Pods */,
+				8813BA3F901C641E49743E29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC69FC1C1C27CFEA00B4F9D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC69FC1B1C27CFEA00B4F9D9 /* MSAutolayoutCellDemo.app */,
+				BC69FC341C27CFEA00B4F9D9 /* MSAutolayoutCellDemoTests.xctest */,
+				BC69FC3F1C27CFEA00B4F9D9 /* MSAutolayoutCellDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC69FC1D1C27CFEA00B4F9D9 /* MSAutolayoutCellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BC896C9E1C280676006454B7 /* Base */,
+				BC896C941C280054006454B7 /* Model */,
+				BC896C931C28004D006454B7 /* View */,
+				BC896C921C280042006454B7 /* Controller */,
+				BC896C8D1C27FEF4006454B7 /* MSMainTableViewController.h */,
+				BC896C8E1C27FEF4006454B7 /* MSMainTableViewController.m */,
+				BC69FC1E1C27CFEA00B4F9D9 /* Supporting Files */,
+			);
+			path = MSAutolayoutCellDemo;
+			sourceTree = "<group>";
+		};
+		BC69FC1E1C27CFEA00B4F9D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC69FC211C27CFEA00B4F9D9 /* AppDelegate.h */,
+				BC69FC221C27CFEA00B4F9D9 /* AppDelegate.m */,
+				BC69FC271C27CFEA00B4F9D9 /* Main.storyboard */,
+				BC69FC2A1C27CFEA00B4F9D9 /* Assets.xcassets */,
+				BC69FC2C1C27CFEA00B4F9D9 /* LaunchScreen.storyboard */,
+				BC69FC2F1C27CFEA00B4F9D9 /* Info.plist */,
+				BC69FC1F1C27CFEA00B4F9D9 /* main.m */,
+				BC896C901C28002F006454B7 /* data.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC69FC371C27CFEA00B4F9D9 /* MSAutolayoutCellDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC69FC381C27CFEA00B4F9D9 /* MSAutolayoutCellDemoTests.m */,
+				BC69FC3A1C27CFEA00B4F9D9 /* Info.plist */,
+			);
+			path = MSAutolayoutCellDemoTests;
+			sourceTree = "<group>";
+		};
+		BC69FC421C27CFEA00B4F9D9 /* MSAutolayoutCellDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC69FC431C27CFEA00B4F9D9 /* MSAutolayoutCellDemoUITests.m */,
+				BC69FC451C27CFEA00B4F9D9 /* Info.plist */,
+			);
+			path = MSAutolayoutCellDemoUITests;
+			sourceTree = "<group>";
+		};
+		BC896C921C280042006454B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC896C981C280629006454B7 /* MSBase1ViewController.h */,
+				BC896C991C280629006454B7 /* MSBase1ViewController.m */,
+				BC03B9961C2925430066F50F /* MSBase2ViewController.h */,
+				BC03B9971C2925430066F50F /* MSBase2ViewController.m */,
+				BC03B99F1C2946AA0066F50F /* MSBase3ViewController.h */,
+				BC03B9A01C2946AA0066F50F /* MSBase3ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BC896C931C28004D006454B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC03B9931C28E8AF0066F50F /* MSCell1.h */,
+				BC03B9941C28E8AF0066F50F /* MSCell1.m */,
+				BC03B9991C2928FC0066F50F /* MSCell2.h */,
+				BC03B99A1C2928FC0066F50F /* MSCell2.m */,
+				BC03B99C1C29376A0066F50F /* MSCell3.h */,
+				BC03B99D1C29376A0066F50F /* MSCell3.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BC896C941C280054006454B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC896C951C2802E8006454B7 /* MSCellModel.h */,
+				BC896C961C2802E8006454B7 /* MSCellModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BC896C9E1C280676006454B7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BC896C8A1C27FEAC006454B7 /* MSBaseViewController.h */,
+				BC896C8B1C27FEAC006454B7 /* MSBaseViewController.m */,
+				BC896C9B1C280659006454B7 /* MSBaseTableViewCell.h */,
+				BC896C9C1C280659006454B7 /* MSBaseTableViewCell.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC69FC1A1C27CFEA00B4F9D9 /* MSAutolayoutCellDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC69FC481C27CFEA00B4F9D9 /* Build configuration list for PBXNativeTarget "MSAutolayoutCellDemo" */;
+			buildPhases = (
+				AE87F84477EFC26027194C36 /* Check Pods Manifest.lock */,
+				BC69FC171C27CFEA00B4F9D9 /* Sources */,
+				BC69FC181C27CFEA00B4F9D9 /* Frameworks */,
+				BC69FC191C27CFEA00B4F9D9 /* Resources */,
+				FB2F3A974E20B91270218AD6 /* Embed Pods Frameworks */,
+				36DE7AA4F47868F10FEFABB6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSAutolayoutCellDemo;
+			productName = MSAutolayoutCellDemo;
+			productReference = BC69FC1B1C27CFEA00B4F9D9 /* MSAutolayoutCellDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC69FC331C27CFEA00B4F9D9 /* MSAutolayoutCellDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC69FC4B1C27CFEA00B4F9D9 /* Build configuration list for PBXNativeTarget "MSAutolayoutCellDemoTests" */;
+			buildPhases = (
+				BC69FC301C27CFEA00B4F9D9 /* Sources */,
+				BC69FC311C27CFEA00B4F9D9 /* Frameworks */,
+				BC69FC321C27CFEA00B4F9D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC69FC361C27CFEA00B4F9D9 /* PBXTargetDependency */,
+			);
+			name = MSAutolayoutCellDemoTests;
+			productName = MSAutolayoutCellDemoTests;
+			productReference = BC69FC341C27CFEA00B4F9D9 /* MSAutolayoutCellDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC69FC3E1C27CFEA00B4F9D9 /* MSAutolayoutCellDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC69FC4E1C27CFEA00B4F9D9 /* Build configuration list for PBXNativeTarget "MSAutolayoutCellDemoUITests" */;
+			buildPhases = (
+				BC69FC3B1C27CFEA00B4F9D9 /* Sources */,
+				BC69FC3C1C27CFEA00B4F9D9 /* Frameworks */,
+				BC69FC3D1C27CFEA00B4F9D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC69FC411C27CFEA00B4F9D9 /* PBXTargetDependency */,
+			);
+			name = MSAutolayoutCellDemoUITests;
+			productName = MSAutolayoutCellDemoUITests;
+			productReference = BC69FC3F1C27CFEA00B4F9D9 /* MSAutolayoutCellDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC69FC131C27CFEA00B4F9D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = dengliwen;
+				TargetAttributes = {
+					BC69FC1A1C27CFEA00B4F9D9 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					BC69FC331C27CFEA00B4F9D9 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = BC69FC1A1C27CFEA00B4F9D9;
+					};
+					BC69FC3E1C27CFEA00B4F9D9 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = BC69FC1A1C27CFEA00B4F9D9;
+					};
+				};
+			};
+			buildConfigurationList = BC69FC161C27CFEA00B4F9D9 /* Build configuration list for PBXProject "MSAutolayoutCellDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC69FC121C27CFEA00B4F9D9;
+			productRefGroup = BC69FC1C1C27CFEA00B4F9D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC69FC1A1C27CFEA00B4F9D9 /* MSAutolayoutCellDemo */,
+				BC69FC331C27CFEA00B4F9D9 /* MSAutolayoutCellDemoTests */,
+				BC69FC3E1C27CFEA00B4F9D9 /* MSAutolayoutCellDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC69FC191C27CFEA00B4F9D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC69FC2E1C27CFEA00B4F9D9 /* LaunchScreen.storyboard in Resources */,
+				BC69FC2B1C27CFEA00B4F9D9 /* Assets.xcassets in Resources */,
+				BC69FC291C27CFEA00B4F9D9 /* Main.storyboard in Resources */,
+				BC896C911C28002F006454B7 /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC69FC321C27CFEA00B4F9D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC69FC3D1C27CFEA00B4F9D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36DE7AA4F47868F10FEFABB6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE87F84477EFC26027194C36 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB2F3A974E20B91270218AD6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC69FC171C27CFEA00B4F9D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC896C971C2802E8006454B7 /* MSCellModel.m in Sources */,
+				BC896C9A1C280629006454B7 /* MSBase1ViewController.m in Sources */,
+				BC896C9D1C280659006454B7 /* MSBaseTableViewCell.m in Sources */,
+				BC03B9A11C2946AA0066F50F /* MSBase3ViewController.m in Sources */,
+				BC69FC231C27CFEA00B4F9D9 /* AppDelegate.m in Sources */,
+				BC69FC201C27CFEA00B4F9D9 /* main.m in Sources */,
+				BC03B9981C2925430066F50F /* MSBase2ViewController.m in Sources */,
+				BC03B9951C28E8AF0066F50F /* MSCell1.m in Sources */,
+				BC896C8F1C27FEF4006454B7 /* MSMainTableViewController.m in Sources */,
+				BC03B99B1C2928FC0066F50F /* MSCell2.m in Sources */,
+				BC03B99E1C29376A0066F50F /* MSCell3.m in Sources */,
+				BC896C8C1C27FEAC006454B7 /* MSBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC69FC301C27CFEA00B4F9D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC69FC391C27CFEA00B4F9D9 /* MSAutolayoutCellDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC69FC3B1C27CFEA00B4F9D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC69FC441C27CFEA00B4F9D9 /* MSAutolayoutCellDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC69FC361C27CFEA00B4F9D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC69FC1A1C27CFEA00B4F9D9 /* MSAutolayoutCellDemo */;
+			targetProxy = BC69FC351C27CFEA00B4F9D9 /* PBXContainerItemProxy */;
+		};
+		BC69FC411C27CFEA00B4F9D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC69FC1A1C27CFEA00B4F9D9 /* MSAutolayoutCellDemo */;
+			targetProxy = BC69FC401C27CFEA00B4F9D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC69FC271C27CFEA00B4F9D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC69FC281C27CFEA00B4F9D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC69FC2C1C27CFEA00B4F9D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC69FC2D1C27CFEA00B4F9D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC69FC461C27CFEA00B4F9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC69FC471C27CFEA00B4F9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC69FC491C27CFEA00B4F9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D6EC6EEC3B0A15361FE9BE8 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MSAutolayoutCellDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.MSAutolayoutCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC69FC4A1C27CFEA00B4F9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976A9841B99DA242DE6BD382 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MSAutolayoutCellDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.MSAutolayoutCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC69FC4C1C27CFEA00B4F9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MSAutolayoutCellDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.MSAutolayoutCellDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSAutolayoutCellDemo.app/MSAutolayoutCellDemo";
+			};
+			name = Debug;
+		};
+		BC69FC4D1C27CFEA00B4F9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MSAutolayoutCellDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.MSAutolayoutCellDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSAutolayoutCellDemo.app/MSAutolayoutCellDemo";
+			};
+			name = Release;
+		};
+		BC69FC4F1C27CFEA00B4F9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MSAutolayoutCellDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.MSAutolayoutCellDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MSAutolayoutCellDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BC69FC501C27CFEA00B4F9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MSAutolayoutCellDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.MSAutolayoutCellDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MSAutolayoutCellDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC69FC161C27CFEA00B4F9D9 /* Build configuration list for PBXProject "MSAutolayoutCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC69FC461C27CFEA00B4F9D9 /* Debug */,
+				BC69FC471C27CFEA00B4F9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC69FC481C27CFEA00B4F9D9 /* Build configuration list for PBXNativeTarget "MSAutolayoutCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC69FC491C27CFEA00B4F9D9 /* Debug */,
+				BC69FC4A1C27CFEA00B4F9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC69FC4B1C27CFEA00B4F9D9 /* Build configuration list for PBXNativeTarget "MSAutolayoutCellDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC69FC4C1C27CFEA00B4F9D9 /* Debug */,
+				BC69FC4D1C27CFEA00B4F9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC69FC4E1C27CFEA00B4F9D9 /* Build configuration list for PBXNativeTarget "MSAutolayoutCellDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC69FC4F1C27CFEA00B4F9D9 /* Debug */,
+				BC69FC501C27CFEA00B4F9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC69FC131C27CFEA00B4F9D9 /* Project object */;
+}

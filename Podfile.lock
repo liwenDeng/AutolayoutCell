@@ -1,0 +1,24 @@
+PODS:
+  - Masonry (0.6.3)
+  - MJExtension (3.0.7)
+  - MMPlaceHolder (1.9)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - UITableView+FDTemplateLayoutCell (1.4.beta)
+
+DEPENDENCIES:
+  - Masonry
+  - MJExtension (~> 3.0.7)
+  - MMPlaceHolder (~> 1.9)
+  - SDWebImage (~> 3.7.3)
+  - UITableView+FDTemplateLayoutCell (~> 1.4.beta)
+
+SPEC CHECKSUMS:
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  MJExtension: 290cc966f0f849b12b6391a38e296e0004ae8e5e
+  MMPlaceHolder: 40212b9dfe8760134b1b2fce3232f0d46200178f
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  UITableView+FDTemplateLayoutCell: 9d20bf0518f3c01e42ae614243b97f1161063d27
+
+COCOAPODS: 0.39.0
