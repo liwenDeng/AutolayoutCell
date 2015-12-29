@@ -13,6 +13,8 @@
 		BC03B99B1C2928FC0066F50F /* MSCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = BC03B99A1C2928FC0066F50F /* MSCell2.m */; };
 		BC03B99E1C29376A0066F50F /* MSCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = BC03B99D1C29376A0066F50F /* MSCell3.m */; };
 		BC03B9A11C2946AA0066F50F /* MSBase3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC03B9A01C2946AA0066F50F /* MSBase3ViewController.m */; };
+		BC0426D21C3225CD000B4629 /* MSBase4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0426D11C3225CD000B4629 /* MSBase4ViewController.m */; };
+		BC0426DB1C322678000B4629 /* MSCell4.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0426DA1C322678000B4629 /* MSCell4.m */; };
 		BC69FC201C27CFEA00B4F9D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69FC1F1C27CFEA00B4F9D9 /* main.m */; };
 		BC69FC231C27CFEA00B4F9D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC69FC221C27CFEA00B4F9D9 /* AppDelegate.m */; };
 		BC69FC291C27CFEA00B4F9D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC69FC271C27CFEA00B4F9D9 /* Main.storyboard */; };
@@ -58,6 +60,10 @@
 		BC03B99D1C29376A0066F50F /* MSCell3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCell3.m; sourceTree = "<group>"; };
 		BC03B99F1C2946AA0066F50F /* MSBase3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBase3ViewController.h; sourceTree = "<group>"; };
 		BC03B9A01C2946AA0066F50F /* MSBase3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBase3ViewController.m; sourceTree = "<group>"; };
+		BC0426D01C3225CD000B4629 /* MSBase4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBase4ViewController.h; sourceTree = "<group>"; };
+		BC0426D11C3225CD000B4629 /* MSBase4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBase4ViewController.m; sourceTree = "<group>"; };
+		BC0426D91C322678000B4629 /* MSCell4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCell4.h; sourceTree = "<group>"; };
+		BC0426DA1C322678000B4629 /* MSCell4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCell4.m; sourceTree = "<group>"; };
 		BC69FC1B1C27CFEA00B4F9D9 /* MSAutolayoutCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSAutolayoutCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC69FC1F1C27CFEA00B4F9D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC69FC211C27CFEA00B4F9D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -207,6 +213,8 @@
 				BC03B9971C2925430066F50F /* MSBase2ViewController.m */,
 				BC03B99F1C2946AA0066F50F /* MSBase3ViewController.h */,
 				BC03B9A01C2946AA0066F50F /* MSBase3ViewController.m */,
+				BC0426D01C3225CD000B4629 /* MSBase4ViewController.h */,
+				BC0426D11C3225CD000B4629 /* MSBase4ViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -220,6 +228,8 @@
 				BC03B99A1C2928FC0066F50F /* MSCell2.m */,
 				BC03B99C1C29376A0066F50F /* MSCell3.h */,
 				BC03B99D1C29376A0066F50F /* MSCell3.m */,
+				BC0426D91C322678000B4629 /* MSCell4.h */,
+				BC0426DA1C322678000B4629 /* MSCell4.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -427,6 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC896C971C2802E8006454B7 /* MSCellModel.m in Sources */,
+				BC0426D21C3225CD000B4629 /* MSBase4ViewController.m in Sources */,
 				BC896C9A1C280629006454B7 /* MSBase1ViewController.m in Sources */,
 				BC896C9D1C280659006454B7 /* MSBaseTableViewCell.m in Sources */,
 				BC03B9A11C2946AA0066F50F /* MSBase3ViewController.m in Sources */,
@@ -437,6 +448,7 @@
 				BC896C8F1C27FEF4006454B7 /* MSMainTableViewController.m in Sources */,
 				BC03B99B1C2928FC0066F50F /* MSCell2.m in Sources */,
 				BC03B99E1C29376A0066F50F /* MSCell3.m in Sources */,
+				BC0426DB1C322678000B4629 /* MSCell4.m in Sources */,
 				BC896C8C1C27FEAC006454B7 /* MSBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

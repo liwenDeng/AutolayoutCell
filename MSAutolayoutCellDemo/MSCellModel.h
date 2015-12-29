@@ -20,4 +20,6 @@
 
 @property (nonatomic, copy) NSString *time;
 
+@property (nonatomic, assign) BOOL isOpen;// 展开操作
+
 @end
