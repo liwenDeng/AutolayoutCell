@@ -29,7 +29,6 @@
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         [self initUI];
     }
-    
     return self;
 }
 
@@ -42,7 +41,6 @@
         [view mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.equalTo(self.contentView);
         }];
-        
         view;
     });
     
@@ -67,7 +65,6 @@
             make.width.lessThanOrEqualTo(bgView).offset(-20);
             //            make.width.lessThanOrEqualTo(@355);
         }];
-        
         label;
     });
     
@@ -80,7 +77,6 @@
         [label mas_makeConstraints:^(MASConstraintMaker *make) {
             make.width.lessThanOrEqualTo(bgView).offset(-20);
         }];
-        
         label;
     });
     
@@ -94,26 +90,22 @@
             //            make.width.lessThanOrEqualTo(@355);
             make.width.lessThanOrEqualTo(bgView).offset(-20);
         }];
-        
         label;
     });
     
     self.imgBgView = ({
         UIView *view = [UIView new];
         [stackView addArrangedSubview:view];
-        
         view.backgroundColor = [UIColor orangeColor];
         
         [view mas_makeConstraints:^(MASConstraintMaker *make) {
             make.width.equalTo(bgView).offset(-20);
         }];
-        
         view;
     });
     
     self.imgView = ({
         UIImageView *imgView = [UIImageView new];
-        
         [self.imgBgView addSubview:imgView];
         
         [imgView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -130,7 +122,6 @@
     
     self.timeLabel = ({
         UILabel *label = [UILabel new];
-        
         [stackView addArrangedSubview:label];
         label.numberOfLines = 0;
         
@@ -138,13 +129,11 @@
             //            make.width.lessThanOrEqualTo(@355);
             make.width.lessThanOrEqualTo(bgView).offset(-20);
         }];
-        
         label;
     });
     
     self.extendLabel = ({
         UILabel *label = [UILabel new];
-        
         [stackView addArrangedSubview:label];
         label.numberOfLines = 0;
         
@@ -152,7 +141,6 @@
             //            make.width.lessThanOrEqualTo(@355);
             make.width.lessThanOrEqualTo(bgView).offset(-20);
         }];
-        
         label;
     });
     
@@ -224,10 +212,8 @@
 
 - (void)btnClicked:(UIButton*)sender
 {
-
-    if (self.delegate) {
+    if ([self.delegate respondsToSelector:@selector(cell:clickedAtIndexPath:)]) {
         [self.delegate cell:self clickedAtIndexPath:self.indexPath];
     }
-    
 }
 @end

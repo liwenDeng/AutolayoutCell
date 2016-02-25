@@ -26,7 +26,6 @@
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         [self initUI];
     }
-    
     return self;
 }
 
@@ -39,10 +38,8 @@
         [view mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.equalTo(self.contentView);
         }];
-        
         view;
     });
-    
     self.bgView = bgView;
     
     self.nameLabel = ({
@@ -54,7 +51,6 @@
             make.top.left.equalTo(bgView).offset(10);
             make.right.lessThanOrEqualTo(bgView).offset(-10);
         }];
-        
         label;
     });
     
@@ -68,7 +64,6 @@
             make.top.equalTo(self.nameLabel.mas_bottom).offset(10);
             make.right.lessThanOrEqualTo(bgView).offset(-10);
         }];
-        
         label;
     });
     
@@ -82,7 +77,6 @@
             make.top.equalTo(self.titleLabel.mas_bottom).offset(10);
             make.right.lessThanOrEqualTo(bgView).offset(-10);
         }];
-        
         label;
     });
     
@@ -95,7 +89,6 @@
             make.top.equalTo(self.contentLabel.mas_bottom).offset(10);
             make.right.lessThanOrEqualTo(bgView).offset(-10);
         }];
-        
         imgView;
     });
     
@@ -109,7 +102,6 @@
             make.top.equalTo(self.imgView.mas_bottom).offset(10);
             make.right.lessThanOrEqualTo(bgView).offset(-10);
         }];
-        
         label;
     });
     
@@ -124,7 +116,7 @@
     self.timeLabel.backgroundColor = [UIColor lightGrayColor];
 }
 
-
+#pragma mark - Property
 - (void)setCellModel:(MSCellModel *)cellModel
 {
     [super setCellModel:cellModel];

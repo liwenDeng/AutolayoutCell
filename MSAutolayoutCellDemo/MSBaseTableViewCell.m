@@ -20,8 +20,4 @@
     // Configure the view for the selected state
 }
 
-- (void)setCellModel:(MSCellModel *)cellModel
-{
-    _cellModel = cellModel;
-}
 @end

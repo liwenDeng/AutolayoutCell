@@ -27,7 +27,6 @@
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         [self initUI];
     }
-    
     return self;
 }
 
@@ -40,10 +39,8 @@
         [view mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.equalTo(self.contentView);
         }];
-        
         view;
     });
-    
     
     self.bgView = bgView;
     
@@ -56,7 +53,7 @@
     
     self.nameLabel = ({
         UILabel *label = [UILabel new];
-        
+        // stackView 使用 addArrangedSubview 来添加视图
         [stackView addArrangedSubview:label];
         label.numberOfLines = 0;
         
@@ -65,26 +62,22 @@
             make.width.lessThanOrEqualTo(bgView).offset(-20);
 //            make.width.lessThanOrEqualTo(@355);
         }];
-        
         label;
     });
     
     self.titleLabel = ({
         UILabel *label = [UILabel new];
-        
         [stackView addArrangedSubview:label];
         label.numberOfLines = 0;
         
         [label mas_makeConstraints:^(MASConstraintMaker *make) {
             make.width.lessThanOrEqualTo(bgView).offset(-20);
         }];
-        
         label;
     });
     
     self.contentLabel = ({
         UILabel *label = [UILabel new];
-        
         [stackView addArrangedSubview:label];
         label.numberOfLines = 0;
         
@@ -92,26 +85,22 @@
 //            make.width.lessThanOrEqualTo(@355);
             make.width.lessThanOrEqualTo(bgView).offset(-20);
         }];
-        
         label;
     });
     
     self.imgBgView = ({
         UIView *view = [UIView new];
         [stackView addArrangedSubview:view];
-        
         view.backgroundColor = [UIColor orangeColor];
-        
+
         [view mas_makeConstraints:^(MASConstraintMaker *make) {
             make.width.equalTo(bgView).offset(-20);
         }];
-        
         view;
     });
     
     self.imgView = ({
         UIImageView *imgView = [UIImageView new];
-        
         [self.imgBgView addSubview:imgView];
         
         [imgView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -128,7 +117,6 @@
     
     self.timeLabel = ({
         UILabel *label = [UILabel new];
-        
         [stackView addArrangedSubview:label];
         label.numberOfLines = 0;
         
@@ -136,10 +124,8 @@
 //            make.width.lessThanOrEqualTo(@355);
             make.width.lessThanOrEqualTo(bgView).offset(-20);
         }];
-        
         label;
     });
-    
     
     self.nameLabel.backgroundColor = [UIColor grayColor];
     self.titleLabel.backgroundColor = [UIColor blueColor];

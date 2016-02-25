@@ -55,7 +55,6 @@
             make.top.left.equalTo(bgView).offset(10);
             make.width.equalTo(@(kScreenWidth));
         }];
-        
         label;
     });
     
@@ -69,7 +68,6 @@
             make.top.equalTo(self.nameLabel.mas_bottom).offset(10);
             make.width.equalTo(@(kScreenWidth));
         }];
-        
         label;
     });
     
@@ -84,7 +82,6 @@
 //            make.width.equalTo(@(kScreenWidth));
             make.width.equalTo(@(kScreenWidth));
         }];
-        
         label;
     });
     
@@ -97,7 +94,6 @@
             make.top.equalTo(self.contentLabel.mas_bottom).offset(10);
             make.width.equalTo(@(kScreenWidth));
         }];
-        
         imgView;
     });
     
@@ -111,7 +107,6 @@
             make.top.equalTo(self.imgView.mas_bottom).offset(10);
             make.width.equalTo(@(kScreenWidth));
         }];
-        
         label;
     });
     

@@ -31,10 +31,8 @@
         NSArray *feedDics = [rootDic objectForKey:@"feed"];
         self.dataArray = [MSCellModel mj_objectArrayWithKeyValuesArray:feedDics];
     }
-    
-    
-    
-    self.view.backgroundColor = [UIColor whiteColor];
+
+    self.view.backgroundColor = [UIColor clearColor];
     
     self.tableView = [[UITableView alloc]init];
     [self.view addSubview:self.tableView];
