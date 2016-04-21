@@ -6,3 +6,5 @@ cell自动计算高度Demo
 ### Demo3: 利用UIStackView 进行布局  [参考里脊串的开发随笔](http://adad184.com/2015/06/08/complex-cell-with-masonry/)
 
 ### 后续再补充 
+
+## this is new branch named dev
